@@ -4,7 +4,7 @@
  * the writing time is stored and compared to the validity when fetching the cache.
  * if no current data is found, get() returns null
  */
-use function Aoloe\debug as debug;
+// use function Aoloe\debug as debug;
 class Cache {
     private $path = 'cache/';
     private $file = null;
